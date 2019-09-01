@@ -1,0 +1,45 @@
+package lesson4;
+
+public class My5thClass {
+
+	public static void main(String[] args) { 
+		
+		int x, y, answer;
+		x = 10;
+		y = 20;
+		answer = x + y; //Two adding value
+		
+		System.out.println("Answer =" + answer);
+		
+		
+		answer = x - y; //Two subtracting value
+				
+		System.out.println("Answer =" + answer);
+		
+		
+		answer = x * y; //Two multiply value
+		
+		System.out.println("Answer =" + answer);
+		
+		
+		answer = x / y; //Two dividing value (integer)
+		
+		System.out.println("Answer =" + answer);
+		
+		
+		answer = x % y; //Two module value
+		
+		System.out.println("Answer =" + answer);
+		
+		
+		double x1, y1, answer1;
+		x1 = 100;
+		y1 = 20;
+		answer1 = x1 / y1; //Two dividing value (decimal)
+		
+		System.out.println("Answer1 =" + answer1);
+				
+
+	}
+
+}
