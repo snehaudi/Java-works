@@ -1,0 +1,50 @@
+package lesson6;
+
+public class My7thClass {
+
+	public static void main(String[] args) {
+		int x = 10;
+		
+		if (x == 10){ //equal to
+			System.out.println("yes x = 10");
+		}else {
+			System.out.println("no x != 10");
+		}
+		
+		if (x != 20){ //not equal to
+			System.out.println("yes x = 10");
+		}else {
+			System.out.println("no x != 10");
+		}
+		
+		if (x > 5){ //greater than
+			System.out.println("yes x = 10");
+		}else {
+			System.out.println("no x != 10");
+		}
+
+		
+		if (x < 20){ //less than
+			System.out.println("yes x = 10");
+		}else {
+			System.out.println("no x != 10");
+		}
+
+		
+		if (x >= 5){ //greater than or equal to
+			System.out.println("yes x = 10");
+		}else {
+			System.out.println("no x != 10");
+		}
+
+		
+		if (x <= 10){ //less than or equal to
+			System.out.println("yes x = 10");
+		}else {
+			System.out.println("no x != 10");
+		}
+
+
+	}
+
+}
