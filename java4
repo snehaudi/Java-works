@@ -1,0 +1,36 @@
+package lesson3;
+
+import java.util.Scanner;
+
+public class My4thClass {
+
+	public static void main(String[] args) {
+		
+		//Input some number
+		Scanner scan = new Scanner (System.in);
+		System.out.print("Enter Some Number:");
+		int user_input_number = scan.nextInt();
+		
+		System.out.print("The entered value is ");
+		System.out.println(user_input_number);
+		
+		//Input some decimal value
+		Scanner scan1 = new Scanner (System.in);
+		System.out.print("Enter Some decimal value:");
+		double user_input_double = scan1.nextDouble();
+		
+		System.out.print("The entered value is ");
+		System.out.println(user_input_double);
+		
+		//Input some text
+		Scanner scan2 = new Scanner (System.in);
+		System.out.print("Enter Some string:");
+		String user_input_string = scan2.nextLine();
+		
+		System.out.print("The entered string is ");
+		System.out.print(user_input_string);
+
+
+	}
+
+}
