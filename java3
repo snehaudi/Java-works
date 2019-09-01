@@ -1,0 +1,26 @@
+package lesson2;
+
+public class My3rdClass {
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		int my_variable = 20;
+		short my_variable1 = 30;
+		float my_decimal = (float)4.5;
+		double my_double = 11.56;
+		char my_char = 'A';
+		boolean is_true = false;
+		
+		
+		System.out.println(x); //print integer value
+		System.out.println(my_variable); //print variable value
+		System.out.println(my_variable1); //print variable1 sort value
+		System.out.println(my_decimal); //print decimal value
+		System.out.println(my_double); //print double value
+		System.out.println(my_char); //print char value
+		System.out.println(is_true); //print boolean value
+
+	}
+
+}
