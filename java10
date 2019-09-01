@@ -1,0 +1,26 @@
+package lesson9;
+
+public class My10thClass {
+
+	public static void main(String[] args) {
+		//0,1,2...,10
+		int x = 0;
+		
+		while (x <= 10) {
+			System.out.println(x);
+			x++;
+		}
+		
+		System.out.println("-----------------------------------------------");
+		
+		//10,9,8...,0
+		int y = 10;
+				
+		while (y >= 0) {
+			System.out.println(y);
+			y--;
+		}
+
+	}
+
+}
