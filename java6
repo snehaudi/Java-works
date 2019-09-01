@@ -1,0 +1,41 @@
+package lesson5;
+
+public class My6thClass {
+
+	public static void main(String[] args) {
+		
+		//Increment number
+		int x = 10;
+		x = x + 1;		
+		System.out.println(x);
+		
+		
+		int y = 20;		
+		System.out.println(++y);		
+		System.out.println(y++);		
+		System.out.println(y);
+		
+		int x1 = 30;
+		x1 += 5;		
+		System.out.println(x1);
+		
+		//Multiple number
+		int x2 = 30;
+		x2 *= 5;		
+		System.out.println(x2);
+		
+		//Dividing number
+		int x3 = 30;
+		x3 /= 5;				
+		System.out.println(x3);
+		
+		//Subtracting number
+		int x4 = 30;
+		x4 -= 5;						
+		System.out.println(x4);
+
+
+
+	}
+
+}
