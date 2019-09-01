@@ -1,0 +1,25 @@
+package lesson7;
+
+public class My8thClass {
+
+	public static void main(String[] args) {
+		int Subject1 = 30;
+		int Subject2 = 80;
+		
+		//AND operator
+		if ((Subject1 > 35) && (Subject2 > 35)) {
+			System.out.println("Results = Pass");
+		}else {
+			System.out.println("Results = Fail");
+		}
+		
+		//OR operator
+		if ((Subject1 > 35) || (Subject2 > 35)) {
+			System.out.println("Results = Pass");
+		}else {
+			System.out.println("Results = Fail");
+		}
+
+	}
+
+}
