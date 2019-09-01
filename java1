@@ -1,0 +1,10 @@
+public class My1stClass {
+
+	public static void main(String[] args) {
+		// print something
+		System.out.println("Hello!");
+		System.out.println("I'm Uditha.");
+
+	}
+
+}
