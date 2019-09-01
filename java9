@@ -1,0 +1,53 @@
+package lesson8;
+
+public class My9thClass {
+
+	public static void main(String[] args) {
+		//1st one
+		int score = 90;
+		
+		switch (score)
+		{
+		case 90 :
+			System.out.println("Very good");
+			break;
+		case 60 :
+			System.out.println("Good");
+			break;
+		case 30 :
+			System.out.println("Ok");
+			break;
+		default :
+			System.out.println("The grades are not defined");
+			break;
+				
+		}
+		
+		//2nd one
+		int score1 = 80;
+		
+		switch (score1)
+		{
+		case 100 :
+		case 90 :
+			System.out.println("Very good");
+			break;
+		case 80 :
+		case 70 :
+		case 60 :
+			System.out.println("Good");
+			break;
+		case 50 :
+		case 40 :
+		case 30 :
+			System.out.println("Ok");
+			break;
+		default :
+			System.out.println("The grades are not defined");
+			break;
+				
+		}
+
+	}
+
+}
